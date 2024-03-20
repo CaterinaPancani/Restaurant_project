@@ -18,7 +18,7 @@
     - app>config>fortify> 
         'home' => '/',
     - creare vista di registrazione
-     3) implementare login
+    3) implementare login
     - documentazione laravel Fortify > Login
     - creare vista login
      - creare form logout
