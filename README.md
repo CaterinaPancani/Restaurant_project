@@ -9,26 +9,26 @@
 - create first route to '/' alias 'home'
 
 
-* AUTENTICAZIONE
-V  1) installare fortify:
+    A. AUTENTICAZIONE
+    1) installare fortify:
     - documentazioe laraverl Fortify > Authentication
     - prima di fare la migration, aggiornare la tabella users con le colonne ulteriori che serviranno
-V  2) implementare registrazione
+    2) implementare registrazione
     - documentazione laravel Fortify > Registration
     - app>config>fortify> 
         'home' => '/',
     - creare vista di registrazione
-V   3) implementare login
+     3) implementare login
     - documentazione laravel Fortify > Login
     - creare vista login
-V   - creare form logout
+     - creare form logout
     4) sistemare rotte nel layout e in web.php con middleware
     5) implementare verifica email
     6) implementare reset password
 
 
 
-* DDL COMPLETO
-* DB:SEED
-* GRAFICA GUEST livewire
-* AZIONI ADMIN crud(?)
+    B. DDL COMPLETO
+    C. DB:SEED
+    D. GRAFICA GUEST livewire
+    E. AZIONI ADMIN crud(?)
