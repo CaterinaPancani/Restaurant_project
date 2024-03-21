@@ -10,16 +10,24 @@
 
 
     A. AUTENTICAZIONE
-Implementato fortify completo, registrazione, autenticazione, logout, verificaq della mail e reset della password.
+Implementato fortify completo, registrazione, autenticazione, logout, verificaq della mail e reset della password. Aggiustati graficamente gli alert di successo di ogni passaggio richiesto
 
 
 
     B. DDL COMPLETO
-        creare tabelle
-        creare relazioni
-        impaginare
+Create 5 migrations delle 5 tabelle fondamentali e le loro relazioni in foreignKeys. Popolato il db precocemente per necessità di visualizzare elenchi per debug (sarà re implementata la factory a seguito dell'impostazione delle relazioni).
+Nelle diocane di routes, quando si richiama una funzione con parametri entranti, nell'uri devo aggiungere le graffe per ingresso parametro. PORCODIO
+Create relazioni 1tomany e manytomany
+Impaginata vista piatti con link ordini associati
+
+    DAFARE:
+    Vista ordini con piatti associati
+    validation della tab pivot per ripetizione coppia valori
+    
+
     C. DB:SEED
         popolare il db
+        
     D. GRAFICA GUEST livewire
     E. AZIONI ADMIN crud(?)
     F. CONTATTACI
