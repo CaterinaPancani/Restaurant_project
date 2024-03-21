@@ -6,6 +6,7 @@
                 <div class="card-body">
                   <h5 class="card-title">{{$food->name}}</h5>
                   <p class="card-text">{{$food->desc}}</p>
+                  {{-- passare oggetto in rotta parametrica --}}
                   <a href="{{route('ordini',$food)}}" class="card-link">Ordini</a>
                 </div>
             </div>
