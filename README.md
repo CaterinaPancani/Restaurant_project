@@ -10,28 +10,24 @@
 
 
     A. AUTENTICAZIONE
-    1) installare fortify:
-    - documentazioe laraverl Fortify > Authentication
-    - prima di fare la migration, aggiornare la tabella users con le colonne ulteriori che serviranno
-    2) implementare registrazione
-    - documentazione laravel Fortify > Registration
-    - app>config>fortify> 
-        'home' => '/',
-    - creare vista di registrazione
-    3) implementare login
-    - documentazione laravel Fortify > Login
-    - creare vista login
-     - creare form logout
-    4) sistemare rotte nel layout e in web.php con middleware
-    5) implementare verifica email
-    6) implementare reset password
+Implementato fortify completo, registrazione, autenticazione, logout, verificaq della mail e reset della password.
 
 
 
     B. DDL COMPLETO
+        creare tabelle
+        creare relazioni
+        impaginare
     C. DB:SEED
+        popolare il db
     D. GRAFICA GUEST livewire
     E. AZIONI ADMIN crud(?)
+    F. CONTATTACI
+
+
+
+
+
 
 
 APP_NAME=Laravel

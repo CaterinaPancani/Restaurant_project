@@ -1,12 +1,16 @@
 <x-layout>
-
+    @if (session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+    @endif
 
 <div class="container">
     <div class="row">
-        <div class="col-3 border">
+        <div class="col-4 ">
             ciao
         </div>
-        <div class="col-6">
+        <div class="col-4">
             <p>
                 Utilizza le tue credenziali per accedere:
             </p>
@@ -23,6 +27,7 @@
                   <label class="form-label">Password</label>
                   <input name="password" type="password" class="form-control">
                 </div>
+                <a href="{{route('password.request')}}">Ho dimenticato la password</a>
                     @error('password')
                     <span>{{$message}}</span>
                     @enderror
@@ -33,7 +38,7 @@
                 <button type="submit" class="btn btn-primary">Entra</button>
             </form>
         </div>
-        <div class="col-3 border">
+        <div class="col-4">
             ciao
         </div>
     </div>
