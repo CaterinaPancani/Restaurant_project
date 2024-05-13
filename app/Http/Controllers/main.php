@@ -7,15 +7,16 @@ use Illuminate\Http\Request;
 
 class main extends Controller
 {
+    public $food;
     public function home(){
         return view('home');
     }
-    public function ordini(Food $food){
+    public function orders(Food $food){
         $orders=$food->orders()->get();
-        return view('ordini',compact('orders'));
+        return view('orders',compact('orders'));
     }
-    public function piatti(){
+    public function foods(){
         $foods=Food::all();
-        return view('piatti',compact('foods'));
+        return view('foods.dashboard',compact('foods'));
     }
 }

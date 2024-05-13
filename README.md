@@ -19,9 +19,16 @@ Create 5 migrations delle 5 tabelle fondamentali e le loro relazioni in foreignK
 Nelle diocane di routes, quando si richiama una funzione con parametri entranti, nell'uri devo aggiungere le graffe per ingresso parametro. PORCODIO
 Create relazioni 1tomany e manytomany
 Impaginata vista piatti con link ordini associati
+Creato livewire per Food(index) + delete
+
 
     DAFARE:
-    Vista ordini con piatti associati
+    creare dashboard con lista piatti, ogni card un button per dettaglio piatto.
+    ogni card del piatto avrà le azioni, visibili (e protette da middleware) solo dall'admin.
+    
+    
+    
+    Mentre per l'utente sarà visibile solo la card e il button per il dettaglio
     validation della tab pivot per ripetizione coppia valori
     
 
